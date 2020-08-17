@@ -5,24 +5,24 @@
 
 ## Результаты:
 
-| Model               | pwROC-AUC score |
-|:-------------------:|----------------:|
-| USE_baseline        | 0,61            |
-| USE_finetuned       | 0,985           |
-| SBERT_finetuned     | 0,991           | 
-| DeepPavlov ru-SBERT | **0.995**       |
-| DeepPavlov mul-SBERT| 0.993           |
-| TF IDF + LogReg     | 0.993           |
-| tayga_skipgram_300  | 0.651           |
+| Model               | pwROC-AUC score | weighted F1-score |
+|:-------------------:|----------------:|------------------:|
+| USE_baseline        | 0,61            |                   |
+| USE_finetuned       | 0,985           | 0.675             |
+| SBERT_finetuned     | 0,991           | 0.947             |
+| DeepPavlov ru-SBERT | **0.995**       | 0.889             |
+| DeepPavlov mul-SBERT| 0.993           | 0.884             |
+| TF IDF + LogReg     | 0.994           | 0.840             |
+| tayga_skipgram_300  | 0.651           |                   |
 
 
 # Модели использованные в сравнительном анализе:
- - USE (https://tfhub.dev/google/universal-sentence-encoder-multilingual/3)
- - sbert (https://github.com/UKPLab/sentence-transformers)
- - DeepPavlov ru-SBERT
- - DeepPavlov mul-SBERT
+ - [USE](https://tfhub.dev/google/universal-sentence-encoder-multilingual/3)
+ - [sbert](https://github.com/UKPLab/sentence-transformers)
+ - [DeepPavlov ru-SBERT](https://huggingface.co/DeepPavlov/rubert-base-cased-sentence)
+ - [DeepPavlov mul-SBERT](https://huggingface.co/DeepPavlov/bert-base-multilingual-cased-sentence)
  - Tf-Idf + logreg
- - tayga_upos_skipgram_300_2_2019
+ - [tayga_upos_skipgram_300_2_2019](https://rusvectores.org/ru/models/)
  
 # Данные
 дамп слака ods: https://opendatascience.slack.com/files/U04URBM8V/FSRD4NVLN/opendatascience_slack_export_mar_12_2015_-_jan_14_2020.zip
