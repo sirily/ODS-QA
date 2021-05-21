@@ -62,7 +62,7 @@ tensorboard==2.1.1        # via pytorch-lightning, tensorflow
 tensorflow-estimator==2.1.0  # via tensorflow
 tensorflow-hub==0.8.0     # via -r requirements.in
 tensorflow-text==2.1.1    # via -r requirements.in
-tensorflow==2.1.0         # via -r requirements.in, tensorflow-text
+tensorflow==2.5.0         # via -r requirements.in, tensorflow-text
 termcolor==1.1.0          # via tensorflow
 tokenizers==0.5.2         # via transformers
 torch==1.5.0              # via pytorch-lightning, sentence-transformers
