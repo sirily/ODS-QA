@@ -10,7 +10,7 @@ bokeh==2.0.2              # via -r requirements.in
 boto3==1.13.19            # via transformers
 botocore==1.16.19         # via boto3, s3transfer
 cachetools==4.1.0         # via google-auth
-certifi==2020.4.5.1       # via requests
+certifi==2022.12.7       # via requests
 chardet==3.0.4            # via requests
 click==7.1.2              # via nltk, sacremoses
 docutils==0.15.2          # via botocore
