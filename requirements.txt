@@ -72,7 +72,7 @@ transformers==2.8.0       # via -r requirements.in, sentence-transformers
 typing-extensions==3.7.4.2  # via bokeh
 urllib3==1.25.9           # via botocore, requests
 werkzeug==1.0.1           # via tensorboard
-wheel==0.34.2             # via tensorboard, tensorflow
+wheel==0.38.1             # via tensorboard, tensorflow
 wrapt==1.12.1             # via tensorflow
 
 # The following packages are considered to be unsafe in a requirements file:
